@@ -4,7 +4,7 @@
 
 /**
  * @file head.h
- * @author Simran Priya
+ * @author Simran Priya cusat
  * @brief Header file for operations used in a supermarket
  * @version 0.1
  * @date 2021-04-10
