@@ -49,4 +49,6 @@ int read(FILE *fp1)
          }
      }
      fclose(fp1);
+
+     return 1;
 }

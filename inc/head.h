@@ -14,6 +14,17 @@
  */
 
 
+/**
+ * @brief enum for error reporting
+ * 
+ */
+
+typedef enum error_t
+{
+    FILE_NOT_FOUND = 1,
+    SUCCESS = 0,
+} error_t;
+
 #ifndef __HEAD_H__
 #define __HEAD_H__
 

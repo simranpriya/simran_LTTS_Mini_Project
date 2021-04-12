@@ -69,4 +69,7 @@ int append(FILE *fp1)
         ch=getchar();
     }while(ch=='y');
     fclose(fp1);
+
+    return 1;
+
 }

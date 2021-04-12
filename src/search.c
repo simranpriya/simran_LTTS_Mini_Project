@@ -59,6 +59,8 @@ int search(FILE *fp1)
     if(temp==0)
         printf("Customer is not in the record");
     fclose(fp1);
+
+    return 1;
 }
 
 

@@ -3,8 +3,12 @@
 #include "head.h"
 
 
+
+
 void main()
 {
+    
+
     FILE *fp1,*fp2;
     int x;
     char ch,c;
@@ -79,6 +83,8 @@ void main()
     ch=getchar();
     printf("\n||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n\n\n");
     }while(ch=='y');
+
+    
 }
 
 
