@@ -1,7 +1,8 @@
 #include "head.h"
 
 
-error_t  openFile(char *addr, char *mode, FILE **fptr){
+error_t  openFile(char *addr, char *mode, FILE **fptr)
+{
 	
     *fptr = fopen(addr,mode);
 

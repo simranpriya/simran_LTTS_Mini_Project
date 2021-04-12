@@ -50,5 +50,5 @@ int read(FILE *fp1)
      }
      fclose(fp1);
 
-     return 1;
+     //return 0;
 }

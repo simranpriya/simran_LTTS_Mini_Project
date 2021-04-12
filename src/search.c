@@ -60,7 +60,7 @@ int search(FILE *fp1)
         printf("Customer is not in the record");
     fclose(fp1);
 
-    return 1;
+    //return 0;
 }
 
 

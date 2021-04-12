@@ -3,23 +3,35 @@
 #Target : dependency
 #<TAB>Command
 
-PROJECT_NAME = all.exe
-SRC = Simran.c\
-src\append.c\
-src\modify.c\
-src\overwrite.c\
-src\read.c\
-src\remove.c\
-src\search.c
+SRC = unity/unity.c\
+src/append.c\
+src/modify.c\
+src/overwrite.c\
+src/openFile.c\
+src/read.c\
+src/remove.c\
+src/search.c\
+test/testFile.c\
 
 
-INC = inc
+INC = -Iunity\
+-Iinc\
+-Itest
+
+PROJECT_NAME = Simran.exe
 
 $(PROJECT_NAME): $(SRC)
-	gcc -I $(INC) $(SRC) -o all.exe
-	
-run: $(PROJECT_NAME)
-	$(PROJECT_NAME)
-	
+	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
+
+run:$(PROJECT_NAME)
+	./${PROJECT_NAME}
+doc:
+	make -C documentation
+
 clean:
-	del /q *.exe
+	rm -rf $(PROJECT_NAME) documentation/html
+
+coverage:${PROJECT_NAME}
+	gcc -fprofile-arcs -ftest-coverage $(SRC) $(INC) -o $(PROJECT_NAME)
+	./${PROJECT_NAME}
+	gcov -a src\append.c\ src\modify.c\ src\overwrite.c\ src\read.c\ src\remove.c\ src\search.c Simran.c

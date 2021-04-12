@@ -41,7 +41,7 @@ int remov(FILE *fp1, FILE *fp2)
   remove("customerdetails.txt");
   rename("cust.txt","customerdetails.txt");
 
-  return 1;
+  //return 0;
 
 }
 

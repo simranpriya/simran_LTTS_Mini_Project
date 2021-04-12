@@ -74,6 +74,6 @@ int write(FILE *fp1)
     }while(ch=='y');
     fclose(fp1);
 
-    return 1;
+    //return 0;
 }
 

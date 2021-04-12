@@ -28,6 +28,19 @@ typedef enum error_t
 #ifndef __HEAD_H__
 #define __HEAD_H__
 
+/**
+ * @brief Opens a file
+ * 
+ * @param [in] addr 
+ * @param [in] mode 
+ * @param [out] fptr 
+ * @return error_t 
+ */
+
+error_t openFile(char *addr, char *mode ,FILE **fp1);
+
+
+
 
 /**
  * @brief Function to  modify the details of customers
