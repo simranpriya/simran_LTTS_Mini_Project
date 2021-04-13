@@ -15,16 +15,17 @@ int remov(FILE *fp1, FILE *fp2)
   int phone,temp=0,phone1;
   float  totalamount,paid,sta,gro,kit,clo,deco,food,elec,sport,bal1,bal2;
   //FILE *fp2;
-  char name[30],address[30],ch,fname[30];
+  //char ch;
+  char name[30],address[30],fname[30];
   fp1=fopen("customerdetails.txt","r");
   fp2=fopen("cust.txt","w");
   printf("\n\nEnter the name of customer :");
-  scanf("%s",&fname);
+  scanf("%100s",&fname);
   printf("\nEnter Phone Number Of Customer:");
     scanf("%d",&phone1);
   while(!feof(fp1))
   {
-      fscanf(fp1,"%d%s%s%f%f%f%f%f%f%f%f%f%f%f%f",&phone,&name,&address,&sta,&gro,&kit,&clo,&deco,&food,&elec,&sport,&totalamount,&paid,&bal1,&bal2);
+      scanf(fp1,"%d%100s%s%f%f%f%f%f%f%f%f%f%f%f%f",&phone,&name,&address,&sta,&gro,&kit,&clo,&deco,&food,&elec,&sport,&totalamount,&paid,&bal1,&bal2);
       if(feof(fp1))
         break;
       if(strcmp(name,fname)==0&&phone1==phone)

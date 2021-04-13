@@ -12,17 +12,19 @@
 int modify(FILE *fp1,FILE *fp2)
 {
     int phone,temp=0,y,k=0,phone1;
-    float  totalamount,paid,sta,gro,kit,clo,deco,food,elec,sport,bal1,bal2,paid1;
-    char name[30],address[30],ch,fname[30],c;
+    float  totalamount,paid,sta,gro,kit,clo,deco,food,elec,sport,bal1,bal2;
+    //float paid1;
+    //char ch;
+    char name[30],address[30],fname[30],c;
     fp1=fopen("customerdetails.txt","r");
     fp2=fopen("cust.txt","w");
     printf("\n\nEnter the Customer Name to be modified:");
-    scanf("%s",&fname);
+    scanf("%100s",&fname);
     printf("\nEnter Phone Number Of Customer:");
     scanf("%d",&phone1);
     while(!feof(fp1))
     {
-       fscanf(fp1,"%d%s%s%f%f%f%f%f%f%f%f%f%f%f%f",&phone,&name,&address,&sta,&gro,&kit,&clo,&deco,&food,&elec,&sport,&totalamount,&paid,&bal1,&bal2);
+       scanf(fp1,"%d%100s%100s%f%f%f%f%f%f%f%f%f%f%f%f",&phone,&name,&address,&sta,&gro,&kit,&clo,&deco,&food,&elec,&sport,&totalamount,&paid,&bal1,&bal2);
         if(feof(fp1))
             break;
         else if(strcmp(name,fname)==0&&phone1==phone)
@@ -42,11 +44,11 @@ int modify(FILE *fp1,FILE *fp2)
             {
             k=1;
             printf("\nEnter New Name : ");
-            scanf("%s",&name);
+            scanf("%100s",&name);
             printf("\nEnter New Phone Number : ");
             scanf("%d",&phone);
             printf("\nEnter New Address:");
-            scanf("%s",&address);
+            scanf("%100s",&address);
         printf("\n  ITEMS PURCHASED           PRICE(in Rs/-)");
         printf("\n ------------------------------------------");
         printf("\nSTATIONARY ITEMS             = ");

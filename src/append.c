@@ -13,17 +13,17 @@
 int append(FILE *fp1)
 {
     int phone;
-    float  totalamount,paid,sta,gro,kit,clo,deco,food,elec,sport,bal1,bal2;
+    float paid,sta,gro,kit,clo,deco,food,elec,sport,bal1,bal2;
     char name[30],address[30],ch;
     fp1=fopen("customerdetails.txt","a");
     do
     {
         printf("\nEnter name : ");
-        scanf("%s",&name);
+        scanf("%100s",&name);
         printf("\nEnter the phone number : ");
         scanf("%d",&phone);
         printf("\nEnter Address:");
-        scanf("%s",&address);
+        scanf("%100s",&address);
         printf("\n  ITEMS PURCHASED           PRICE(in Rs/-)");
         printf("\n------------------------------------------");
         printf("\nSTATIONARY ITEMS             = ");
@@ -42,7 +42,8 @@ int append(FILE *fp1)
         scanf("%f",&elec);
         printf("SPORTS ITEMS                 = ");
         scanf("%f",&sport);
-        totalamount=sta+gro+kit+clo+deco+food+elec+sport;
+        
+        float totalamount=sta+gro+kit+clo+deco+food+elec+sport;
         printf("\nTOTAL AMOUNT=%f",totalamount);
         printf("\n\nAMOUNT PAID=");
         scanf("%f",&paid);
