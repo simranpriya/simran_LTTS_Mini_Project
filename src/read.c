@@ -19,7 +19,7 @@ int read(FILE *fp1)
      fp1=fopen("customerdetails.txt","r");
      while(!feof(fp1))
      {
-        scanf(fp1,"%d%100s%s%f%f%f%f%f%f%f%f%f%f%f%f",&phone,&name,&address,&sta,&gro,&kit,&clo,&deco,&food,&elec,&sport,&totalamount,&paid,&bal1,&bal2);
+        fscanf(fp1,"%d%100s%s%f%f%f%f%f%f%f%f%f%f%f%f",&phone,&name,&address,&sta,&gro,&kit,&clo,&deco,&food,&elec,&sport,&totalamount,&paid,&bal1,&bal2);
         if(feof(fp1))
             break;
          else

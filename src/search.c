@@ -23,7 +23,7 @@ int search(FILE *fp1)
     scanf("%d",&phone1);
     while(!feof(fp1))
     {
-        scanf(fp1,"%d%100s%s%f%f%f%f%f%f%f%f%f%f%f%f",&phone,&name,&address,&sta,&gro,&kit,&clo,&deco,&food,&elec,&sport,&totalamount,&paid,&bal1,&bal2);
+        fscanf(fp1,"%d%100s%s%f%f%f%f%f%f%f%f%f%f%f%f",&phone,&name,&address,&sta,&gro,&kit,&clo,&deco,&food,&elec,&sport,&totalamount,&paid,&bal1,&bal2);
         if(feof(fp1))
             break;
         if(strcmp(name,fname)==0&&phone1==phone)

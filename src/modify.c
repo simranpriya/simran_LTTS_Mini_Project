@@ -24,13 +24,13 @@ int modify(FILE *fp1,FILE *fp2)
     scanf("%d",&phone1);
     while(!feof(fp1))
     {
-       scanf(fp1,"%d%100s%100s%f%f%f%f%f%f%f%f%f%f%f%f",&phone,&name,&address,&sta,&gro,&kit,&clo,&deco,&food,&elec,&sport,&totalamount,&paid,&bal1,&bal2);
+       fscanf(fp1,"%d%100s%100s%f%f%f%f%f%f%f%f%f%f%f%f",&phone,&name,&address,&sta,&gro,&kit,&clo,&deco,&food,&elec,&sport,&totalamount,&paid,&bal1,&bal2);
         if(feof(fp1))
             break;
         else if(strcmp(name,fname)==0&&phone1==phone)
         {
             temp=1;
-            fflush(stdin);
+            //fflush(stdin);
 
 
             //    -----------------------------------------------------------------------------------
@@ -90,7 +90,7 @@ int modify(FILE *fp1,FILE *fp2)
         }
         fprintf(fp2,"%d\n%s\n%s\n%f\n%f\n%f\n%f\n%f\n%f\n%f\n%f\n%f\n%f\n%f\n%f\n",phone,name,address,sta,gro,kit,clo,deco,food,elec,sport,totalamount,paid,bal1,bal2);
     }
-            fflush(stdin);
+            //fflush(stdin);
 
 
             //    --------------------------------------------------------------------
@@ -101,7 +101,7 @@ int modify(FILE *fp1,FILE *fp2)
             {
             do
             {
-               fflush(stdin);
+               //fflush(stdin);
             printf("\nDO YOU WANT TO MODIFY ITEM DETAILS OF THE CUSTOMER(y/n)?:");
             c=getchar();
             if(c=='y')
@@ -187,7 +187,7 @@ int modify(FILE *fp1,FILE *fp2)
             bal1=0;bal2=0;
             printf("\nEXACT AMOUNT PAID");
         }
-        fflush(stdin);
+        //fflush(stdin);
         printf("\nDo you want to modify another item(y/n)? ");
         c=getchar();
         }while(c=='y');
