@@ -41,7 +41,7 @@ endif
 
 
 all:
-	gcc -I $(INC_H) all:$(SRC) Simran.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
+	gcc -I $(INC_H) all: $(SRC) Simran.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
 
 	
 run:
