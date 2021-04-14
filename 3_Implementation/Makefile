@@ -6,13 +6,13 @@ PROJECT_NAME = Simran.exe
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 
-SRC = src\append.c\
-src\modify.c\
-src\overwrite.c\
-src\openFile.c\
-src\read.c\
-src\remove.c\
-src\search.c
+SRC = src/append.c\
+src/modify.c\
+src/overwrite.c\
+src/openFile.c\
+src/read.c\
+src/remove.c\
+src/search.c
 
 
 TEST_SRC = test/testFile.c\
