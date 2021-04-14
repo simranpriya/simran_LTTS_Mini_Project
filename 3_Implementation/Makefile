@@ -59,7 +59,7 @@ test:
 # 	gcov $(SRC)
 
 cppcheck:
-	cppcheck --enable=all $(SRC) Simran.c
+	cppcheck --enable=all: $(SRC) Simran.c
 
 
 
