@@ -15,7 +15,7 @@ src/remove.c\
 src/search.c
 
 
-TEST_SRC = test\testFile.c\
+TEST_SRC = test/testFile.c\
 unity/unity.c
 
 INC_H = inc
