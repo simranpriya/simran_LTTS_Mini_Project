@@ -30,3 +30,17 @@ An efficient way of removing the list of customers' bills who have their total c
 
 Organization
 Customer Billing Management offers to keep billing information together in a single file. Digital storage capability saves space for a neater, more welcoming office — not to mention less harried employees.
+
+
+
+4W's and 1'H
+Who:
+Small and medium size shops providing services to customers.
+What:
+Many shops still depend on manual transaction systems. But it becomes a tedious task to manage every transaction especially manually searching a particular record with hand written file system.
+When:
+This problem is prevailing from a long time but due to inability of technological skills people were little hesitant towards it.
+Where:
+This problem is expected to surface in all types of customer retail shops.
+How:
+This problem may cause effective billing management and hence there can be reduction in a huge amount of paper wastage. As per recent data ,every month almost tonnes of paper are wasted due to all this.
