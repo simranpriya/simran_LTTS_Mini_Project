@@ -5,6 +5,7 @@ Requirements
 
 Introduction
 
+
 Consumer shops need an effective and accurate billing system to be able to assure their revenue.The billing process involves receiving billing records from various consumers, determining the billing rates associated with the bills, calculating the cost for each billing record, showing invoices to the customer, and collecting payments received from the customer.
 
 This topic was chosen because it gives me an opportunity to implement a proper structuring of billing management and provides me flexibilty to understand multiple C programming concepts.
@@ -34,13 +35,24 @@ Customer Billing Management offers to keep billing information together in a sin
 
 
 4W's and 1'H
+
+
 Who:
+
 Small and medium size shops providing services to customers.
+
 What:
+
 Many shops still depend on manual transaction systems. But it becomes a tedious task to manage every transaction especially manually searching a particular record with hand written file system.
+
 When:
+
 This problem is prevailing from a long time but due to inability of technological skills people were little hesitant towards it.
+
 Where:
+
 This problem is expected to surface in all types of customer retail shops.
+
 How:
+
 This problem may cause effective billing management and hence there can be reduction in a huge amount of paper wastage. As per recent data ,every month almost tonnes of paper are wasted due to all this.
