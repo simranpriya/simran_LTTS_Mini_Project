@@ -13,8 +13,6 @@ int modify(FILE *fp1,FILE *fp2)
 {
     int phone,temp=0,y,k=0,phone1;
     float  totalamount,paid,sta,gro,kit,clo,deco,food,elec,sport,bal1,bal2;
-    //float paid1;
-    //char ch;
     char name[30],address[30],fname[30],c;
     fp1=fopen("customerdetails.txt","r");
     fp2=fopen("cust.txt","w");
@@ -187,7 +185,7 @@ int modify(FILE *fp1,FILE *fp2)
             bal1=0;bal2=0;
             printf("\nEXACT AMOUNT PAID");
         }
-        //fflush(stdin);
+        
         printf("\nDo you want to modify another item(y/n)? ");
         c=getchar();
         }while(c=='y');
@@ -206,6 +204,6 @@ int modify(FILE *fp1,FILE *fp2)
   remove("customerdetails.txt");
   rename("cust.txt","customerdetails.txt");
 
-  //return 0;
+  
 
 }

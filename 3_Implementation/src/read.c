@@ -14,7 +14,6 @@ int read(FILE *fp1)
 {
     int phone;
     float  totalamount,paid,sta,gro,kit,clo,deco,food,elec,sport,bal1,bal2;
-    //char ch;
     char name[30],address[30];
      fp1=fopen("customerdetails.txt","r");
      while(!feof(fp1))
@@ -51,5 +50,5 @@ int read(FILE *fp1)
      }
      fclose(fp1);
 
-     //return 0;
+    
 }

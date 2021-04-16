@@ -65,12 +65,12 @@ int append(FILE *fp1)
             printf("\nEXACT AMOUNT PAID");
         }
         fprintf(fp1,"%d\n%s\n%s\n%f\n%f\n%f\n%f\n%f\n%f\n%f\n%f\n%f\n%f\n%f\n%f\n",phone,name,address,sta,gro,kit,clo,deco,food,elec,sport,totalamount,paid,bal1,bal2);
-        //fflush(stdin);
+
         printf("\n\nDo you want to add  another record(y/n)?");
         ch=getchar();
     }while(ch=='y');
     fclose(fp1);
 
-    //return 0;
+    
 
 }

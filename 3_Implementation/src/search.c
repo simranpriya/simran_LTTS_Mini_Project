@@ -15,7 +15,6 @@ int search(FILE *fp1)
     int phone,temp=0,k=0,phone1;
     float  totalamount,paid,sta,gro,kit,clo,deco,food,elec,sport,bal1,bal2;
     char name[30],address[30],fname[30];
-    //char ch,str_name,dup_name[30];
     fp1=fopen("customerdetails.txt","r");
     printf("\n\nEnter Name :");
     scanf("%100s",&fname);
@@ -61,7 +60,7 @@ int search(FILE *fp1)
         printf("Customer is not in the record");
     fclose(fp1);
 
-    //return 0;
+  
 }
 
 

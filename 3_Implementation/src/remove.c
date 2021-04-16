@@ -14,8 +14,6 @@ int remov(FILE *fp1, FILE *fp2)
 {
   int phone,temp=0,phone1;
   float  totalamount,paid,sta,gro,kit,clo,deco,food,elec,sport,bal1,bal2;
-  //FILE *fp2;
-  //char ch;
   char name[30],address[30],fname[30];
   fp1=fopen("customerdetails.txt","r");
   fp2=fopen("cust.txt","w");
@@ -42,7 +40,6 @@ int remov(FILE *fp1, FILE *fp2)
   remove("customerdetails.txt");
   rename("cust.txt","customerdetails.txt");
 
-  //return 0;
 
 }
 
