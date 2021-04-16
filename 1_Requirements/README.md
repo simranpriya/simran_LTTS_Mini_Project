@@ -1,14 +1,14 @@
 
-Requirements
+#Requirements
 
 
-Introduction
+##Introduction
 
 
 Consumer shops need an effective and accurate billing system to be able to assure their revenue.The billing process involves receiving billing records from various consumers, determining the billing rates associated with the bills, calculating the cost for each billing record, showing invoices to the customer, and collecting payments received from the customer.This topic was chosen because it gives me an opportunity to implement a proper structuring of billing management and provides me flexibilty to understand multiple C programming concepts.
 
 
-Research
+##Research
 
 Customer Billing System Features and Benefits
 
