@@ -58,3 +58,20 @@ This problem may cause effective billing management and hence there can be reduc
 SWOT ANALYSIS
 
 ![swot analysis](https://user-images.githubusercontent.com/62329455/114999509-8c9d6700-9ebf-11eb-8157-94156a9ca41a.png)
+
+
+Details of the Requirements
+
+High Level Requirements
+![high level requirements](https://user-images.githubusercontent.com/62329455/115004373-5f06ec80-9ec4-11eb-959f-6e9d43f779d4.png)
+
+Low Level Requirements
+
+
+
+
+
+
+
+
+
