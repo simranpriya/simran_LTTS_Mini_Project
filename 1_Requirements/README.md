@@ -66,6 +66,8 @@ High Level Requirements
 ![high level requirements](https://user-images.githubusercontent.com/62329455/115004373-5f06ec80-9ec4-11eb-959f-6e9d43f779d4.png)
 
 Low Level Requirements
+![low level requirements](https://user-images.githubusercontent.com/62329455/115006164-2ff17a80-9ec6-11eb-97b0-677ce2bc7296.png)
+
 
 
 
