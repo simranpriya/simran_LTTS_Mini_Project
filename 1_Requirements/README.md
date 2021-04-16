@@ -56,5 +56,6 @@ How:
 This problem may cause effective billing management and hence there can be reduction in a huge amount of paper wastage. As per recent data ,every month almost tonnes of paper are wasted due to all this.
 
 
+SWOT ANALYSIS
 
 ![swot analysis](https://user-images.githubusercontent.com/62329455/114999509-8c9d6700-9ebf-11eb-8157-94156a9ca41a.png)
